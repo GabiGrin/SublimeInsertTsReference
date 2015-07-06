@@ -4,7 +4,7 @@ Quickly insert a `///<reference path=".."``` to .ts files by searching for the c
 
 ##Motivation
 When writing web apps with TypeScript, it's common to have an aggregated file holding all the .d.ts declarations which are not imported explicitly (like Angular for example).
-I got sick of adding the same `///<reference path="references.ts" />` line to my TypeScript files manually, and thinking about how deep the current file is comparing to my source root (where I usually have a single references.ts file), so I decided to write a plugin that will find the closest references file going upwards (until reaching project root), and will add it to the top of the file.
+I got sick of adding the same `///<reference path="references.ts" />` line to my TypeScript files manually, and thinking about how deep the current file is comparing to my source root (where I usually have a single references.ts file), so I decided to write a plugin that will find the closest references.ts file going upwards (until reaching project root), and will add it to the top of the file as a reference node.
 
 #Installation
 
