@@ -1,0 +1,6 @@
+[
+	{ 
+		"keys": ["super+i", "super+r"], 
+		"command": "insert_ts_reference"
+	}
+]

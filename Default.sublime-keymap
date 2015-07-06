@@ -1,0 +1,6 @@
+[
+    { 
+        "keys": ["ctrl+i", "ctrl+r"], 
+        "command": "insert_ts_reference"
+    }
+]

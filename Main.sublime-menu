@@ -1,0 +1,87 @@
+[
+    {
+        "caption": "Preferences",
+        "children": [
+            {
+                "caption": "Package Settings",
+                "children": [
+                    {
+                        "caption": "Insert TS Reference",
+                        "children": [
+                            {
+                                "args": {
+                                    "file": "${packages}/InsertTsReference/InsertTsReference.sublime-settings"
+                                },
+                                "caption": "Settings \u2013 Default",
+                                "command": "open_file"
+                            },
+                            {
+                                "args": {
+                                    "file": "${packages}/User/InsertTsReference.sublime-settings"
+                                },
+                                "caption": "Settings \u2013 User",
+                                "command": "open_file"
+                            },
+                            {
+                                "caption": "-"
+                            },
+                            {
+                                "caption": "Key Bindings – Default",
+                                "command": "open_file", "args":
+                                {
+                                    "file": "${packages}/InsertTsReference/Default (OSX).sublime-keymap",
+                                    "platform": "OSX"
+                                }
+                            },
+                            {
+                                "caption": "Key Bindings – User",
+                                "command": "open_file", "args":
+                                {
+                                    "file": "${packages}/User/Default (OSX).sublime-keymap",
+                                    "platform": "OSX"
+                                }
+                            },
+                            {
+                                "caption": "Key Bindings – Default",
+                                "command": "open_file", "args":
+                                {
+                                    "file": "${packages}/InsertTsReference/Default (Linux).sublime-keymap",
+                                    "platform": "Linux"
+                                }
+                            },
+                            {
+                                "caption": "Key Bindings – User",
+                                "command": "open_file", "args":
+                                {
+                                    "file": "${packages}/User/Default (Linux).sublime-keymap",
+                                    "platform": "Linux"
+                                }
+                            },
+                            {
+                                "caption": "Key Bindings – Default",
+                                "command": "open_file", "args":
+                                {
+                                    "file": "${packages}/InsertTsReference/Default (Windows).sublime-keymap",
+                                    "platform": "Windows"
+                                }
+                            },
+                            {
+                                "caption": "Key Bindings – User",
+                                "command": "open_file", "args":
+                                {
+                                    "file": "${packages}/User/Default (Windows).sublime-keymap",
+                                    "platform": "Windows"
+                                }
+                            }
+                        ],
+                        "id": "inserttsreference"
+                    }
+                ],
+                "id": "package-settings",
+                "mnemonic": "P"
+            }
+        ],
+        "id": "preferences",
+        "mnemonic": "n"
+    }
+]
